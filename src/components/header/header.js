@@ -61,10 +61,10 @@ const Header = (props) => {
         </div>
         <div className="nav-header">
             <button className='open' onClick={openbar}>
-                <i className="fas fa-bars"></i>
+                <i className="fas fa-bars" style={{ fontSize: '24px' }}></i>
             </button>
             <button className='close' onClick={closebar}>
-                <i className="fas fa-times" aria-hidden="true"></i>
+                <i className="fas fa-times" aria-hidden="true" style={{ fontSize: '24px' }}></i>
             </button>
         </div>
 
