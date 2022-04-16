@@ -39,9 +39,8 @@ const Skills = (props) => {
 
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
-                <h3 className='text-white'>Tools</h3>
+                <h3 className='text-white'>Other Skills</h3>
                 <ul className='text-base'>
-                    <li>Mobile First Design</li>
                     <li>Good Communication Skills</li>
                     <li>Team Player</li>
                 </ul>
