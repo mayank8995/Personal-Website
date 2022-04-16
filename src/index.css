@@ -98,3 +98,61 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+hr{
+  display: hidden;
+}
+.img{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-header{
+  display: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .switch {
+    width: 46px;
+    height: 22px;
+  }
+  .slider:before {
+    height: 15px;
+    width: 15px;
+}
+nav{
+  width:93%;
+  border: 1px solid;
+  margin:1.25rem;
+  text-decoration: underline;
+}
+.connect > a {
+  text-decoration: underline;
+}
+.nav-header{
+  position: absolute;
+  top: 0;
+}
+.links-container{
+  display: none;
+}
+.close{
+  display: none;
+}
+.connect-position{
+  position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.name-position{
+  position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+.nav-header{
+  display: block;
+}
+}

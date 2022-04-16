@@ -4,8 +4,8 @@ const Projects = (props) => {
 
     return <section id="projects">
         <h1 className='text-center title-font sm:text-3xl text-3xl mb-4 font-medium dark:text-white'>Projects</h1>
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-start">
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+        <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-start">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Shop E-commerce</h3>
                 <h4 className='text-sm dark:text-slate-300'>Airtel XLabs, Banglore</h4>
                 <p >
@@ -17,7 +17,7 @@ const Projects = (props) => {
 
                 </p>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Finance, Investment Banking</h3>
                 <h4 className='text-sm dark:text-slate-300'>Publicis Sapient, Gurgaon</h4>
                 <p>
@@ -32,7 +32,7 @@ const Projects = (props) => {
 
                 </p>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Corms</h3>
                 <h4 className='text-sm dark:text-slate-300'>Newgen Softwares, Noida</h4>
                 <p>

@@ -4,8 +4,8 @@ const Skills = (props) => {
 
     return <section id="skills">
         <h1 className='text-center title-font sm:text-3xl text-3xl mb-4 font-medium dark:text-white'>Skills</h1>
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-start">
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+        <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-start">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Frontend</h3>
                 <ul className='text-base'>
                     <li>Javascript</li>
@@ -18,7 +18,7 @@ const Skills = (props) => {
                 </ul>
 
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Backend</h3>
                 <ul className='text-base'>
                     <li>Java (Basic)</li>
@@ -27,7 +27,7 @@ const Skills = (props) => {
                 </ul>
 
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Tools</h3>
                 <ul className='text-base'>
 
@@ -38,7 +38,7 @@ const Skills = (props) => {
                 </ul>
 
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
+            <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Other Skills</h3>
                 <ul className='text-base'>
                     <li>Good Communication Skills</li>

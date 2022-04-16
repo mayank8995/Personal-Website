@@ -14,15 +14,12 @@ function App() {
   return (
     <main className="dark:text-gray-400  dark:bg-gray-900 body-font">
       <Header />
-      <Home />
-      {/* <div class="relative flex py-5 items-center">
-    <div class="flex-grow border-t border-gray-400"></div>
-    <span class="flex-shrink mx-4 text-gray-400">Content</span>
-    <div class="flex-grow border-t border-gray-400"></div>
-</div> */}
-      <Experience />
-      <Skills />
-      <Projects />
+      <div>
+        <Home />
+        <Experience />
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
     </main>
   );
