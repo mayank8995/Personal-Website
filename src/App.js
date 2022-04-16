@@ -8,8 +8,11 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 
 function App() {
+  //bg-stone-900
+
+
   return (
-    <main className="text-gray-400 bg-stone-900 body-font">
+    <main className="body-font">
       <Header />
       <Home />
       {/* <div class="relative flex py-5 items-center">
