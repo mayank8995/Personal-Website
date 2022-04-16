@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <main className="dark:text-gray-400  dark:bg-gray-900 body-font">
+    <main className="body-font">
       <Header />
       <Home />
       {/* <div class="relative flex py-5 items-center">
