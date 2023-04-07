@@ -52,7 +52,7 @@ const Header = (props) => {
                 <hr />
             </nav>
             <div className='connect'>
-                <a className='dark:text-white mr-5 no-underline hover:underline' href="#connect">Connect</a>
+                {/* <a className='dark:text-white mr-5 no-underline hover:underline' href="#connect">Connect</a> */}
                 <label className="switch" >
                     <input onClick={setThemeBackground} type="checkbox" defaultChecked />
                     <span className="slider round"></span>
