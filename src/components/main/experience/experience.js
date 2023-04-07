@@ -10,7 +10,7 @@ const Experience = (props) => {
                 <h4 className='text-sm'>Shop E-commerce</h4><br />
                 <h4 className='dark:text-white'>Role</h4>
                 <h5 className='text-sm'>Senior Software Engineer</h5><br />
-                <h4 className='dark:text-white'>Banglore,India</h4>
+                <h4 className='dark:text-white'>Bengaluru,India</h4>
                 <h5 className='text-sm'>Feb 2022-Present</h5>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">

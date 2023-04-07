@@ -7,7 +7,7 @@ const Projects = (props) => {
         <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-start">
             <div className="px-10 lg:max-w-lg lg:w-full md:w-1/3 w-5/6 m-3">
                 <h3 className='dark:text-white'>Shop E-commerce</h3>
-                <h4 className='text-sm dark:text-slate-300'>Airtel XLabs, Banglore</h4>
+                <h4 className='text-sm dark:text-slate-300'>Airtel X Labs, Bengaluru</h4>
                 <p >
                     <ul className='text-base'>
                         <li>
